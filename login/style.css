@@ -245,11 +245,32 @@ section a {
   width: 50%;
 }
 
-/* 300px - 480px */
-@media (max-width: 480px) {
+@media (max-width: 420px) {
   .container {
-    width: 98%;
-    height: 98%;
+    width: 300px;
+  }
+
+  .login-box {
+    width: 280px;
+  }
+
+  .register-box {
+    width: 280px;
+  }
+}
+
+/* 300px - 480px */
+@media (min-width: 420px) and (max-width: 480px) {
+  .container {
+    width: 390px;
+  }
+
+  .login-box {
+    width: 370px;
+  }
+
+  .register-box {
+    width: 370px;
   }
 }
 
